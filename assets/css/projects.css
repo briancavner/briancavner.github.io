@@ -1,0 +1,36 @@
+.project-ss {
+    float: right;
+    width: 400px;
+    max-width: 50%;
+    margin-left: 2rem;
+}
+
+.project-ss img{
+    width: 100%;
+}
+
+.project-title {
+    line-height: 1.3em;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    margin-top: 2rem;
+    line-height: 1.3em;
+}
+
+.project-description {
+    line-height: 1.3em;
+    hyphens: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1rem;
+}
+
+.project-technologies {
+    margin-bottom: 2rem;
+    line-height: 1.3em;
+}
