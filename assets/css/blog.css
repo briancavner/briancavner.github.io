@@ -1,35 +1,7 @@
-body { background: #D5D0CD; background: linear-gradient(90deg, #ECEAE9 0%, #ECEAE9 17rem, #D5D0CD 37rem, #D5D0CD 70%, #CAC3BF 100%); color: #1F2325; font-family: Georgia, Georgia, serif; height: 100%; }
+.post-category {
+    margin-bottom: 0rem;
+}
 
-.page-title { font-size: 2em; font-weight: bold; margin-bottom: 3rem; }
-
-.leftbar { color: #F4F2F1; position: fixed; left: 0; top: 0; width: 17rem; height: 100%; background-color: #465053; background: linear-gradient(135deg, #637075 0%, #2F3537 100%); }
-
-.leftbar-holder { position: relative; top: 50%; left: 50%; text-align: center; transform: translate(-50%, -50%); width: 85%; }
-
-.leftbar-title { font-size: 2.1rem; margin-bottom: 1.5rem; letter-spacing: .15rem; text-shadow: 0.1rem 0.1rem 1rem #1d1816; }
-
-.leftbar-description { margin-bottom: 3rem; text-shadow: 0.1rem 0.1rem 0.3rem #1d1816; color: #C7BDB8; }
-
-.leftbar-navigation { font-size: 1.2rem; line-height: 4em; text-shadow: 0.1rem 0.1rem 0.5rem #1d1816; letter-spacing: .1rem; }
-
-.horizontal-navigation { display: none; }
-
-.horizontal-navigation select { width: 8rem; margin: .6rem 0 .6rem 0; max-width: 35rem; height: 1.8rem; font: inherit; }
-
-.leftbar a { text-decoration: none; font: inherit; color: inherit; }
-
-.content { margin-left: 20rem; margin-top: 3rem; margin-bottom: 6rem; max-width: 50rem; padding: 0 10%; font-size: 1.2rem; }
-
-.pad { padding-top: 10vh; }
-
-.content a { color: #637075; }
-
-@media only screen and (max-height: 600px) { .horizontal-navigation { display: inline-block; } .vertical-navigation { display: none; } }
-
-@media only screen and (max-width: 1000px) { body { background: linear-gradient(180deg, #ECEAE9 0%, #D5D0CD 18rem, #D5D0CD 90%, #CAC3BF 100%); } .leftbar { position: absolute; height: 3rem; width: 100%; } .content { margin-left: 0; margin-top: 6rem; } .pad { padding-top: 0; } .horizontal-navigation { display: inline; height: 100%; line-height: 3rem; } .vertical-navigation { display: none; } .leftbar-description { display: none; } .leftbar-holder { position: static; text-align: left; transform: none; width: 100%; } .leftbar-title { font-size: 1.5rem; float: left; padding: 0 2rem 0 1rem; height: 100%; line-height: 3rem; } }
-
-.post-category { margin-bottom: 0rem; }
-
-.post-content { line-height: 1.5em; }
-
-/*# sourceMappingURL=blog.css.map */
+.post-content {
+    line-height: 1.5em;
+}

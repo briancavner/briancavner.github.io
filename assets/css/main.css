@@ -1,4 +1,6 @@
-body { background: #D5D0CD; background: linear-gradient(90deg, #ECEAE9 0%, #ECEAE9 17rem, #D5D0CD 37rem, #D5D0CD 70%, #CAC3BF 100%); color: #1F2325; font-family: Georgia, Georgia, serif; height: 100%; }
+html { min-height: 100%; }
+
+body { background: #D5D0CD; background: linear-gradient(90deg, #ECEAE9 0%, #ECEAE9 17rem, #D5D0CD 37rem, #D5D0CD 70%, #CAC3BF 100%); color: #1F2325; font-family: Georgia, Georgia, serif; }
 
 .page-title { font-size: 2em; font-weight: bold; margin-bottom: 3rem; }
 
