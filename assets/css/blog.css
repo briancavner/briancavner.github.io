@@ -1,13 +1,18 @@
 .post-category {
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 .post-content {
     line-height: 1.5em;
+    text-align: justify;
 }
 
 sup {
     vertical-align: top;
     position: relative;
     top: -0.45em;
+}
+
+li {
+    margin-bottom: 1rem;
 }
