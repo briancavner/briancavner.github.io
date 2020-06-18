@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>The Prosecutor's Fallacy: How Statistics Convicts the Innocent</title>
+    
+    
+    
+      <meta name="description" content="Brian Cavner is an attorney and developer in Portland, OR. He is currently developing web and software based solutions to promote access to justice.">
+    
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    
+      <link rel="stylesheet" href="/assets/css/blog.css">
+    
+  </head>
+  
+  <body>
+    <div class="leftbar">
+    <div class="leftbar-holder">
+        <div class="leftbar-title"><a href="/">Brian Cavner</a></div>
+        <div class="leftbar-description">Attorney & Developer<br>Portland, OR</div>
+        <span class="vertical-navigation">
+            <div class="leftbar-navigation"><a href="/about/">About</a></div>
+            <div class="leftbar-navigation"><a href="/resume/">Resume</a></div>
+            <div class="leftbar-navigation"><a href="/blog/">Blog</a></div>
+            <div class="leftbar-navigation"><a href="/projects/">Projects</a></div>
+            <div class="leftbar-navigation"><a href="/contact/">Contact</a></div>
+        </span>
+        <div class="horizontal-navigation">
+            <select onchange="window.location.href=this.value">
+                <option value="/" >Home</option>
+                <option value="/about/" >About</option>
+                <option value="/resume/" >Resume</option>
+                <option value="/blog/" selected>Blog</option>
+                <option value="/projects/" >Projects</option>
+                <option value="/contact/" >Contact</option>
+            </select>
+        </div>
+    </div>
+</div>
+    <div class="content ">
+      <div class="page-title"></div>
+      <div class="page-content"><div class="post-category">Law and Psychology</div>
+<div class="page-title">The Prosecutor's Fallacy: How Statistics Convicts the Innocent</div>
+<div class="post-content"><p>If you’ve seen any crime investigation shows on TV, you’ve probably seen an actor pretend to swab a drop of fake blood and announce, “I’m going to run this through CODIS and see if we find a match”. Then to a crime lab, where a computer monitor is scrolling through photos until it stops on one with with a green flashing “MATCH”. Another actor — probably Ice-T — says, “this our guy?”, and the lab technician will say, “the chances of a false match are 1/14,000.”</p>
+
+<p>CODIS is real, and so are the expert witnesses who testify in criminal trials about its accuracy. But there is a key error of statistical interpretation that prosecutors hope jurors make. Even if we know for sure that the DNA came from the murderer, and even if it’s true that there’s only a 1/14,000<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> chance of a false match, it is incorrect to conclude that there is only a 1/14,000 chance of innocence.</p>
+
+<p>CODIS is a database with over 10 million entries. If we assume a narrow search of 10,000 potential matches and an error rate of 1/14,000, the likelihood that a random innocent person would match a given sample is expressed as 1 - (1 - (1 / 14,000))<sup>10,000</sup>, which equals 0.510 or 51%. Which means there is a 51% chance that the sample will match <em>someone</em> in the database, whether the murderer is in the system or not.</p>
+
+<p>Jurors may hear “there is a 1 in 14,000 chance that this sample would match an innocent person,” but won’t hear that those odds rise to 1 in 2 if the murderer’s DNA wasn’t among the 10,000 checked.</p>
+
+<p>And the obfuscation needn’t be intentional either. Many of these statistical errors are counterintuitive and can be made innocently. A mistake by an expert witness may not be caught until after conviction.</p>
+
+<p>This happened to Lucia de Berk, a nurse who was convicted of 7 murders and 3 attempted murders of patients in her care. In trial and at appeal, a psychologist and expert witness testified that there was a 1 in 342 million chance the same nurse would be at all the unexplained deaths and not be responsible. She was sentenced to life in prison. In 2010, after serving 7 years, she was exonerated when new facts emerged. When the 1 in 342 million figure was evaluated, it turned out that the psychologist made the same error from the above hypothetical. The chances of a false match were actually 1 in 25 — not likely, but not beyond a reasonable doubt.</p>
+
+<p>Sally Clark was another victim of mistaken statistics. Her first infant son died from unknown illness within weeks of birth. Two years later, after her second infant son died within weeks of birth, she was arrested for the murder of both infants. At trial, a doctor testified that the odds of two children dying under those circumstances in the same family was 1 in 73 million. She was also sentenced to life in prison. And also exonerated when new facts emerged. She served 3 years, and suffered from both the loss of her children and the blame for their deaths until she died a few years later from an alcohol overdose. The statistical mistake the doctor made was calculating the events as if they were independent — it didn’t take into account that there may have been a non-murder factor that contributed to both deaths, like a genetic or environmental reason.</p>
+
+<p>A less tragic example is California’s <em>People v. Collins</em>.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> An eyewitness saw a woman being robbed, and described the attackers as a black man with a beard and mustache, and a white woman with a blond ponytail, who drove away in a yellow car. A couple matching the description was arrested. A mathematics professor testified that there was a 1 in 12 million chance that a couple matching the witness’s description was a different, innocent couple. He reached this figure by multiplying the statistical likelihood of each individual trait, for instance that 1 in 10 black men have beards, 1 in 4 men have mustaches, and 1 in 10 cars are yellow. This makes one obvious mistake — that men who have beards are also more likely to have mustaches, so those probabilities aren’t independent — and one less obvious one: multiplying probabilities in this way actually calculates the frequency of a given set of features relative to any other set of features. It reveals nothing about the likelihood that any given couple matches the description, and is irrelevant in determining guilt.</p>
+
+<p>Like the others, the conviction was set aside. The introduction to the court’s option outlines what I think is the correct approach to statistics within the law:</p>
+
+<blockquote>
+  <p>The testimony as to mathematical probability infected the case with fatal error and distorted the jury’s traditional role of determining guilt or innocence according to long-settled rules. Mathematics […], while assisting the trier of fact in the search for truth, must not cast a spell over him. We conclude that on the record before us defendant should not have had his guilt determined by the odds.</p>
+</blockquote>
+
+<p>Statistics are far to easy to manipulate and mislead, both intentionally and unintentionally. The only just outcome is to let no one’s guilt be merely determined by the odds.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The accuracy of DNA profile matching varies depending on factors like the type and quality of the sample, so I have chosen 1/14,000 to make the math easier to illustrate. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>68 Cal.2d 319 <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div></div>
+    </div>
+  </body>
+</html>
