@@ -1,1 +1,1 @@
-Sitemap: https://www.briancavner.com/sitemap.xml
+Sitemap: http://localhost:5000/sitemap.xml
